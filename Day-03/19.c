@@ -26,6 +26,8 @@ int main(){
         printf("%d ", *(arr+i));
     }
 
+    //min and max.
+    
     max=min=*arr;
 
     for(i=0; i<n; i++){
@@ -39,6 +41,8 @@ int main(){
     }
 
     printf("\nmax no=%d, min no=%d\n", max, min);
+
+    //Array Rev
 
     for (i=0;i<n/2;i++){
         swap((arr+i), (arr+(n-1-i)));
