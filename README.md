@@ -22,3 +22,7 @@ Day-02:
   16: Pointer Arithmetic pt3: ptr to a ptr.
   17: Pointer Arithmetic pt4: Array Manipulation.
   18: String Length, Reversal and palindrome checking without using <string.h>.
+
+Day-03:
+  19: Dynamic Array implementation using Malloc and ptrs. Insertion, min/max and reversal.
+  20: Character ptr implementation and string manipulation(Length, Palindrome and reversal) using ptrs.
