@@ -10,6 +10,7 @@ void swap(char *x, char *y){
 int main(){
     int n, i=0, cnt=0, flag=1; //if you're the condition is != and then flag=0, then here flag=1.
     char s[100];
+    printf("DISCLAIMER! This is a case-sensitive implementation. Therefore, if case doesn't match, the prgm will count it as a none palindrome string, even if it is one.\n");
 
     fgets(s, 100, stdin); // fgets() stores newline in the end.
 
@@ -39,8 +40,11 @@ int main(){
     }
     else{
         i=0;
-        while(i<cnt/2 && s[i]!=s[cnt-1-i]){
-            flag=0;
+        while(i<cnt/2){
+            if(s[i]!=s[cnt-1-i]){
+                flag=0;
+                break;
+            }
             i++;
         }
         if (flag==1) printf("Palindrome");
