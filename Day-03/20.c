@@ -10,7 +10,7 @@ void swap(char *x, char *y){
     *y=temp;
 }
 int main(){  
-    int i, flag=0, len=0;
+    int i, flag=1, len=0;
     char *str=malloc(200* sizeof(char));
     for(i=0;i<200;i++){
         scanf("%c", (str+i));
