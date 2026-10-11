@@ -26,3 +26,7 @@ Day-02:
 Day-03:
   19: Dynamic Array implementation using Malloc and ptrs. Insertion, min/max and reversal.
   20: Character ptr implementation and string manipulation(Length, Palindrome and reversal) using ptrs.
+
+Day-04:
+  21: Frequency Counter v1(Brute Force Approach)
+  22: Frequency Counter v2(Optimised Approach)
