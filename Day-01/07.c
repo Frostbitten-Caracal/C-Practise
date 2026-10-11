@@ -2,10 +2,10 @@
 
 #include <stdio.h>
 
-void main(){
-    int i, temp, j, n, last, k, arr[n];
-
+int main(){
+    int i, temp, j, n, last, k;
     scanf("%d",&n);
+    int arr[n];
 
     for(i=0; i<n; i++){
         printf("Array I/P: ");
@@ -29,4 +29,5 @@ void main(){
         printf("%d ", arr[i]);
     }
     
+    return 0;
 }

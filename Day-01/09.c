@@ -11,9 +11,10 @@ int LS(int arr[], int n, int x){
         return -1;
 }
 
-void main(){
-    int i, x=0, n, flag, arr[n]; //arr[10]={5,6,4,2,3,7,1,8,9,0};
+int main(){
+    int i, x=0, n, flag; 
     scanf("%d", &n);
+    int arr[n]; //arr[10]={5,6,4,2,3,7,1,8,9,0};
     for(i=0; i<n; i++){
         printf("Enter I/P: ");
         scanf("%d", &arr[i]);
@@ -24,4 +25,5 @@ void main(){
     flag=LS(arr, n, x);
     if(flag!=-1) printf("%d", flag);
     else printf("%d", flag);
+    return 0;
 }

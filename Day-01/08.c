@@ -2,9 +2,10 @@
 
 #include <stdio.h>
 
-void main(){
-    int n, arr[n], i, max=0, max2=0; //arr[5]={15,15,15,15,15}
+int main(){
+    int n, i, max=0, max2=0; //arr[5]={15,15,15,15,15}
     scanf("%d", &n);
+    int arr[n];
     for(i=0; i<n; i++){
         printf("Enter I/P: ");
         scanf("%d", &arr[i]);
@@ -19,4 +20,5 @@ void main(){
     }
     printf("2nd Largest: %d", max2);
     //printf("Largest & 2nd Largest= %d %d", max, max2);
+    return 0;
 }
