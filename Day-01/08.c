@@ -21,6 +21,9 @@ int main(){
         }
         else if(arr[i]>max2 && arr[i]!=act_max) max2=arr[i];
     }
-    printf("2nd Largest: %d\n", max2);
+
+    if(max2==INT_MIN) {printf("All nos are equal, so no 2nd largest.\n"); return 0;}
+
+    else printf("2nd Largest: %d\n", max2);
     return 0;
 }
