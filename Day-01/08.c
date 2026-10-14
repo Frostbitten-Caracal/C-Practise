@@ -21,7 +21,6 @@ int main(){
         }
         else if(arr[i]>max2 && arr[i]!=act_max) max2=arr[i];
     }
-    printf("2nd Largest: %d", max2);
-    //printf("Largest & 2nd Largest= %d %d", max, max2);
+    printf("2nd Largest: %d\n", max2);
     return 0;
 }
